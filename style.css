@@ -8,10 +8,11 @@ body{
     text-align: center;
     padding: 20px;
     background-color: #385466;
+    color: black;
+    font-weight: bold;
 }
 
 header{
-    color: #000000;
     padding: 10px;
     font-size: 30px;
 }
@@ -34,7 +35,7 @@ header{
 .topmenu:hover{
     background-color: darkgray;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: underline;
 }
 
@@ -50,7 +51,9 @@ section{
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
 }
 
 button{
@@ -59,7 +62,7 @@ button{
     border-top: transparent;
     border-left: black;
     border-right: black;
-    border-width: 8px;
+    border-radius: 40px;
     width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
