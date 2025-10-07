@@ -1,0 +1,37 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #385466;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar{
+    float: right;
+    padding-right: 1cm;
+    overflow: auto;
+}
+
+.topmenu{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10mm;
+    font-size: 20px;
+}
+
+.topmenu:hover{
+    background-color: darkgray;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
