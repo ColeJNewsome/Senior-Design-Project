@@ -1,4 +1,4 @@
-const appearingElements = document.querySelectorAll('.scroll-appear');
+const appearingElements = document.querySelectorAll('.scrollappear');
 
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
@@ -7,7 +7,7 @@ const observer = new IntersectionObserver(entries => {
             observer.unobserve(entry.target);
         }
     });
-}, { threshold: 0.1 });
+}, { threshold: 0.2 });
 
 appearingElements.forEach(element => {
     observer.observe(element);
