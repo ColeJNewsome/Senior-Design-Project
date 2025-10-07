@@ -11,8 +11,9 @@ body{
 }
 
 header{
-    color: #ffffff;
+    color: #000000;
     padding: 10px;
+    font-size: 30px;
 }
 
 .navbar{
@@ -38,7 +39,7 @@ header{
 }
 
 #Allsections{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
@@ -58,11 +59,15 @@ button{
     border-top: transparent;
     border-left: black;
     border-right: black;
-    border-width: 2px;
+    border-width: 8px;
     width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
     background-color: transparent;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 .scrollappear{
