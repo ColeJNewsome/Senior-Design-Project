@@ -1,10 +1,10 @@
 body{
     font-family: "Roboto", sans-serif;
     margin: 0;
-    padding: 0;
+    padding-bottom: 200vh;
     background-color: #f4f4f4;
 }
-#home{
+#topSection{
     text-align: center;
     padding: 20px;
     background-color: #385466;
@@ -35,6 +35,37 @@ header{
     color: black;
     font-weight: bold;
     text-decoration: underline;
+}
+
+#Allsections{
+    display: flex;
+    justify-content: center;
+    height:auto;
+    align-items: center;
+}
+
+button{
+    font-size: 20px;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: black;
+    border-right: black;
+    border-width: 2px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+}
+
+.scrollappear{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out;
+}
+
+.scrollappear.visible{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 
