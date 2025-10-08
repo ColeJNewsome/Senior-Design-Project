@@ -20,7 +20,6 @@ header{
 .navbar{
     float: right;
     padding-right: 1cm;
-    overflow: auto;
 }
 
 .topmenu{
@@ -37,6 +36,7 @@ header{
     color: black;
     font-weight: bolder;
     text-decoration: underline;
+    width: fit-content;
 }
 
 #Allsections{
@@ -82,6 +82,7 @@ button{
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    max-width: 100%;
 }
 
 #testform{

@@ -18,7 +18,7 @@ function CalculateResults() {
     let pH = document.getElementById("pH").value;
     let temp = document.getElementById("Temp").value;
     let Bacteria = document.getElementById("Bacteria").value;
-    if (bacteria == ("EColi" | "Other") | tds >= 1000 | temp >= 120 | pH <= 6 | pH >= 9) {
+    if (Bacteria == ("EColi" | "Other") | tds >= 1000 | temp >= 120 | pH <= 6 | pH >= 9) {
         document.getElementById("result").innerHTML = "DO NOT DRINK";
         return;
     }
