@@ -18,7 +18,11 @@ function CalculateResults() {
     let pH = document.getElementById("pH").value;
     let temp = document.getElementById("Temp").value;
     let Bacteria = document.getElementById("Bacteria").value;
-    if (Bacteria == ("EColi" | "Other") | tds >= 1000 | temp >= 120 | pH <= 6 | pH >= 9) {
+    if (tds == "" | pH == "" | temp == "" | Bacteria == "") {
+        alert("Please fill in all fields");
+        return;
+    }
+    else if (Bacteria == ("EColi" | "Other") | tds >= 1000 | temp >= 120 | pH <= 6 | pH >= 9) {
         document.getElementById("result").value = "DO NOT DRINK";
     }
     else if (tds >= 500 | pH <= 6.5 | pH >= 8.5 | temp >= 100) {
