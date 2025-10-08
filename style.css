@@ -5,9 +5,12 @@ body{
 }
 #topSection{
     padding: 20px;
-    background-color: #385466;
+    background-image: image("background.jpg");
     color: black;
     font-weight: bold;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
 }
 
 header{
@@ -16,7 +19,7 @@ header{
     font-size: 30px;
 }
 
-.navbar{
+.navBar{
     float: right;
     padding-right: 1cm;
 }
@@ -26,7 +29,7 @@ header{
     text-decoration: none;
     padding: 10px;
     margin: 10px;
-    border-radius: 10mm;
+    border-radius: 1mm;
     font-size: 20px;
 }
 
@@ -35,12 +38,12 @@ header{
     color: black;
     font-weight: bolder;
     text-decoration: underline;
-    width: fit-content;
 }
 
 #Allsections{
     display: grid;
     justify-content: center;
+    max-width: 1600px;
     gap: 400px;
 }
 
@@ -50,7 +53,6 @@ section{
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 100%;
     grid-template-columns: 1fr 1fr;
 }
 
