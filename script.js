@@ -7,7 +7,7 @@ const observer = new IntersectionObserver(entries => {
             observer.unobserve(entry.target);
         }
     });
-}, { threshold: 0.2 });
+}, { threshold: 0.3 });
 
 appearingElements.forEach(element => {
     observer.observe(element);
