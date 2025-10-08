@@ -1,7 +1,6 @@
 body{
     font-family: "Roboto", sans-serif;
     margin: 0;
-    padding-bottom: 200vh;
     background-color: #f4f4f4;
 }
 #topSection{
@@ -42,8 +41,7 @@ header{
 #Allsections{
     display: grid;
     justify-content: center;
-    align-items: center;
-    gap: 200px;
+    gap: 400px;
 }
 
 section{
@@ -54,15 +52,11 @@ section{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     grid-template-columns: 1fr 1fr;
-    align-content: center;
 }
 
 button{
     font-size: 20px;
-    border-bottom: transparent;
-    border-top: transparent;
-    border-left: black;
-    border-right: black;
+    border: transparent;
     border-radius: 40px;
     width: fit-content;
     padding-left: 10px;
@@ -70,8 +64,11 @@ button{
     background-color: transparent;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 #testValues{
-    align-content: center;
     border-color: black;
     border-style: solid;
     border-width: 2px;
@@ -94,8 +91,9 @@ button{
     align-content: center;
 }
 
-button:hover{
-    cursor: pointer;
+legend{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .scrollappear{
