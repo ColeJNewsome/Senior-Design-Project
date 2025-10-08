@@ -19,20 +19,16 @@ function CalculateResults() {
     let temp = document.getElementById("Temp").value;
     let Bacteria = document.getElementById("Bacteria").value;
     if (Bacteria == ("EColi" | "Other") | tds >= 1000 | temp >= 120 | pH <= 6 | pH >= 9) {
-        document.getElementById("result").innerHTML = "DO NOT DRINK";
-        return;
+        document.getElementById("result").value = "DO NOT DRINK";
     }
     else if (tds >= 500 | pH <= 6.5 | pH >= 8.5 | temp >= 100) {
-        document.getElementById("result").innerHTML = "Potentially Unsafe or Unpleasant Taste";
-        return;
+        document.getElementById("result").value = "Potentially Unsafe or Unpleasant Taste";
     }
     else if (tds < 500 & tds > 150){
-        document.getElementById("result").innerHTML = "Likely Safe to Drink";
-        return result
+        document.getElementById("result").value = "Likely Safe to Drink";
     }
     else {
-        document.getElementById("result").innerHTML = "Safe to Drink";
-        return;
+        document.getElementById("result").value = "Safe to Drink";
     }
 }
     
