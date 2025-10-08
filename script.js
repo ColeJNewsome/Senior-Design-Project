@@ -13,7 +13,7 @@ appearingElements.forEach(element => {
     observer.observe(element);
 });
 
-CalculateResults = () => {
+function CalculateResults() {
     let tds = document.getElementById("TDS").value;
     let pH = document.getElementById("pH").value;
     let temp = document.getElementById("Temp").value;

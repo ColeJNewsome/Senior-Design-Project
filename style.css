@@ -5,7 +5,6 @@ body{
     background-color: #f4f4f4;
 }
 #topSection{
-    text-align: center;
     padding: 20px;
     background-color: #385466;
     color: black;
@@ -13,6 +12,7 @@ body{
 }
 
 header{
+    float: left;
     padding: 10px;
     font-size: 30px;
 }
@@ -77,7 +77,7 @@ button{
     border-width: 2px;
 }
 
-#gallery{
+.gallery{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
