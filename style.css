@@ -43,6 +43,7 @@ header{
     display: grid;
     justify-content: center;
     align-items: center;
+    gap: 200px;
 }
 
 section{
@@ -53,7 +54,6 @@ section{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     grid-template-columns: 1fr 1fr;
-    gap: 200px;
     align-content: center;
 }
 
