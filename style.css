@@ -77,7 +77,7 @@ button{
     border-width: 2px;
 }
 
-.gallery{
+#gallery{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
