@@ -5,7 +5,7 @@ body{
 }
 #topSection{
     padding: 20px;
-    background-image: image("background.jpg");
+    background-image: url("background.jpg");
     color: black;
     font-weight: bold;
     height: 400px;
@@ -78,7 +78,7 @@ button:hover{
 
 .gallery{
     display: flex;
-    flex-wrap: wrap;
+    aspect-ratio: auto;
     gap: 20px;
     justify-content: center;
     max-width: 100%;
@@ -86,11 +86,13 @@ button:hover{
 
 #testform{
     border: 2px solid black;
+    display: flex;
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    align-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 legend{
