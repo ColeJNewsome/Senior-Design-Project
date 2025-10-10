@@ -1,13 +1,14 @@
 body{
     font-family: "Roboto", sans-serif;
     margin: 0;
-    background-color: #001727;
+    background-color: #00080e;
 }
 #topSection{
     padding: 20px;
     background-image: linear-gradient(to right, #003459, #003a64);
     color: white;
     font-weight: bold;
+    height: auto;
     border: transparent;
 }
 
@@ -39,6 +40,7 @@ header{
     background-color: #f4f4f4;
     display: grid;
     justify-content: center;
+    box-sizing: border-box;
     max-width: 100vw;
     gap: 400px;
 }
@@ -53,7 +55,6 @@ section{
     border-top: linear-gradient(to right, #007ea7, #017297);
     border-top-style: solid;
     border-top-width: 50px;
-    box-sizing: border-box;
 }
 
 button{
