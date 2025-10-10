@@ -16,7 +16,7 @@ body{
 
 @media screen and (max-width: 600px) {
     #topSection {
-        height: 300px;
+        height: 325px;
     }
     #introText {
         width: 100%;
@@ -32,8 +32,6 @@ body{
     }
     #introImage {
         float: right;
-        width: 40%;
-        margin-top: 20px;
     }
 }
 
