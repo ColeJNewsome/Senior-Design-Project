@@ -14,7 +14,13 @@ body{
     border: transparent;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px){
+    #topSection {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px){
     #topSection {
         height: 375px;
     }
