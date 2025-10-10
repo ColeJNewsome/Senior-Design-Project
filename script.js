@@ -22,7 +22,7 @@ function CalculateResults() {
         alert("Please fill in all fields");
         return;
     }
-    else if (Bacteria == ("EColi" | "Other") | tds >= 1000 | temp >= 120 | pH <= 6 | pH >= 9) {
+    else if (Bacteria == ("E. Coli" | "Other") | tds >= 1000 | temp >= 120 | pH <= 6 | pH >= 9) {
         document.getElementById("result").value = "DO NOT DRINK";
     }
     else if (tds >= 500 | pH <= 6.5 | pH >= 8.5 | temp >= 100) {
@@ -35,4 +35,5 @@ function CalculateResults() {
         document.getElementById("result").value = "Safe to Drink*";
     }
 }
+
     
