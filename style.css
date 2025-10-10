@@ -2,7 +2,9 @@ body{
     font-family: "Roboto", sans-serif;
     margin: 0;
     background-color: #00080e;
+    font-size: 16px;
 }
+
 #topSection{
     padding: 20px;
     background-image: linear-gradient(to right, #003459, #003a64);
@@ -14,13 +16,13 @@ body{
 
 @media screen and (max-width: 600px) {
     #topSection {
-        height: 350px;
+        height: 300px;
     }
 }
 
 @media screen and (min-width: 601px){
     #topSection {
-        height: 150px;
+        height: 100px;
     }
 }
 
@@ -40,13 +42,13 @@ header{
     color: white;
     padding: 15px;
     margin: 15px;
-    font-size: 20px;
+    font-size: 25px;
     background-color: transparent;
 }
 
 .topmenu:hover{
     background-color: #002742;
-    font-weight: bolder;
+    text-shadow: 1px 1px 2px black;
     text-decoration: underline;
 }
 
@@ -55,7 +57,6 @@ header{
     display: grid;
     justify-content: center;
     max-width: 100vw;
-    gap: 400px;
 }
 
 section{
@@ -66,6 +67,7 @@ section{
     grid-template-columns: 1fr 1fr;
     border-top: linear-gradient(to right, #007ea7, #017297);
     border-top-width: 10px;
+    border-radius: 10px;
 }
 
 button{
@@ -114,6 +116,12 @@ legend{
 img{
     max-width: 100%;
     height: auto;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #696868, #333, #696868);
 }
 
 .scrollappear{
