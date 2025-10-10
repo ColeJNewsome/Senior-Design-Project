@@ -18,11 +18,22 @@ body{
     #topSection {
         height: 300px;
     }
+    #introText {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 601px){
     #topSection {
         height: 100px;
+    }
+    #introText {
+        width: 60%;
+    }
+    #introImage {
+        float: right;
+        width: 40%;
+        margin-top: 20px;
     }
 }
 
@@ -30,7 +41,7 @@ body{
 header{
     float: left;
     padding: 10px;
-    font-size: 30px;
+    font-size: 48px;
 }
 
 .navBar{
@@ -48,7 +59,7 @@ header{
 
 .topmenu:hover{
     background-color: #002742;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px white;
     text-decoration: underline;
 }
 
@@ -87,7 +98,7 @@ button:hover{
 #testValues{
     border-color: black;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .gallery{
@@ -105,7 +116,7 @@ button:hover{
     align-items: center;
     padding: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 legend{
@@ -122,6 +133,10 @@ hr{
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, #696868, #333, #696868);
+}
+
+#introText{
+    float: left;
 }
 
 .scrollappear{

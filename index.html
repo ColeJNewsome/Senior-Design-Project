@@ -25,10 +25,16 @@
             <section id="Introduction" class="scrollappear">
                 <h2>Introduction</h2>
                 <hr>
-                <p>We often take for granted our basic privileges in life. Drinking water still brings about hardships for millions of people per year according to the <a href="https://www.who.int/news-room/fact-sheets/detail/drinking-water" target="_blank">W.H.O.</a></p>
-                <p>The Water Test System (WTS) is set to assist in solving these issues. WTS is a consolidated testing system that analyzes total dissolved solids (TDS), pH, temperature, and bacteria such as E. Coli and determines if the water is safe to drink.</p>
-                <p>The design of WTS focuses on a lower-cost, intuitive, and portable solution for testing water quality in remote or underserved areas. The system utilizes a microcontroller to process data from various sensors and displays the results on an LCD screen as well as an app (in the future). The WTS aims to provide users with a quick and easy way to assess the safety of their water supply.</p>
-                <p>WTS is being developed as part of a Senior Design Project at the University of Toledo. </p>
+                    <div id="introText">
+                        <p>We often take for granted our basic privileges in life. Drinking water still brings about hardships for millions of people per year according to the <a href="https://www.who.int/news-room/fact-sheets/detail/drinking-water" target="_blank">W.H.O.</a></p>
+                        <p>The Water Test System (WTS) is set to assist in solving these issues. WTS is a consolidated testing system that analyzes total dissolved solids (TDS), pH, temperature, and bacteria such as E. Coli and determines if the water is safe to drink.</p>
+                        <p>The design of WTS focuses on a lower-cost, intuitive, and portable solution for testing water quality in remote or underserved areas. The system utilizes a microcontroller to process data from various sensors and displays the results on an LCD screen as well as an app (in the future). The WTS aims to provide users with a quick and easy way to assess the safety of their water supply.</p>
+                        <p>WTS is being developed as part of a Senior Design Project at the University of Toledo. </p>
+                    </div>
+                    <div id="introImage">
+                        <img src="images/woman-drinking-water.jpg" alt="Woman drinking from a water bottle." >;
+                    </div>
+                    
             </section>
     
             <section id="Features" class="scrollappear">
@@ -52,20 +58,20 @@
                 <p>Inputting values into the fields below demonstrate the logic that determines if water is safe.</p>
                 <fieldset id="testform">
                     <legend>Tested Water Values</legend>
-                    <label for ="TDS">Total Dissolved Solids (ppm): </label>
+                    <label for ="TDS">Total Dissolved Solids (ppm)</label>
                     <input type="number" id="TDS" name="TDS" min="0" max="2000"> <br/>
-                    <label for ="pH">pH Level: </label>
+                    <label for ="pH">pH Level</label>
                     <input type="number" id="pH" name="pH" min="0" max="14" step="0.1"> <br/>
-                    <label for ="Temp">Temperature (°F): </label>
+                    <label for ="Temp">Temperature (°F)</label>
                     <input type="number" id="Temp" name="Temp" min="32" max="212"> <br/>
-                    <label for ="Bacteria">Bacteria Present: </label>
+                    <label for ="Bacteria">Bacteria Present</label>
                     <select id="Bacteria" name="Bacteria">
                         <option value="None">None</option>
                         <option value="EColi">E. Coli</option>
                         <option value="Other">Other</option>
                     </select> <br/>
                     <button id="testValues" onclick="CalculateResults()">Test</button> <br/>
-                    <label for="result">Result: </label>
+                    <label for="result">Result</label>
                     <input type="text" id="result" name="result" readonly>
                 </fieldset>
                 <p>The thresholds used above are based on <a href="https://www.epa.gov/ground-water-and-drinking-water/national-primary-drinking-water-regulations" target="_blank">Primary</a> and <a href="https://www.epa.gov/sdwa/drinking-water-regulations-and-contaminants#Secondary" target="_blank">Secondary</a> EPA standards </p>

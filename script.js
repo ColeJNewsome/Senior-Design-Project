@@ -26,13 +26,13 @@ function CalculateResults() {
         document.getElementById("result").value = "DO NOT DRINK";
     }
     else if (tds >= 500 | pH <= 6.5 | pH >= 8.5 | temp >= 100) {
-        document.getElementById("result").value = "Potentially Unsafe or Unpleasant Taste";
+        document.getElementById("result").value = "Potentially Unsafe";
     }
     else if (tds < 500 & tds > 150){
         document.getElementById("result").value = "Likely Safe to Drink";
     }
     else {
-        document.getElementById("result").value = "Safe to Drink";
+        document.getElementById("result").value = "Safe to Drink*";
     }
 }
     
