@@ -5,11 +5,10 @@ body{
 }
 #topSection{
     padding: 20px;
-    background-image: url("images/background.jpg");
+    background-color: lightskyblue;
     color: black;
     font-weight: bold;
     height: 400px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: transparent;
 }
 
@@ -53,15 +52,16 @@ section{
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px gray;
     grid-template-columns: 1fr 1fr;
     border-top: rgb(248, 229, 203);
     border-top-style: solid;
+    border-top-width: 50px;
 }
 
 button{
     font-size: 20px;
-    border: transparent;
+    border: gray;
     border-radius: 40px;
     width: fit-content;
     padding-left: 20px;
