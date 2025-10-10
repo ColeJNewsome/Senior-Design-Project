@@ -10,6 +10,7 @@ body{
     font-weight: bold;
     height: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: transparent;
 }
 
 header{
@@ -43,7 +44,7 @@ header{
     background-color: #f4f4f4;
     display: grid;
     justify-content: center;
-    max-width: 1600px;
+    max-width: 100vw;
     gap: 400px;
 }
 
@@ -82,6 +83,7 @@ button:hover{
     display: flex;
     gap: 20px;
     justify-content: center;
+    flex-direction: column;
 }
 
 #testform{
@@ -101,7 +103,7 @@ legend{
     font-size: 20px;
 }
 
-figure{
+img{
     max-width: 100%;
     height: auto;
 }
