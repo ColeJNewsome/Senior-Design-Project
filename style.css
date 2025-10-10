@@ -5,12 +5,11 @@ body{
 }
 #topSection{
     padding: 20px;
-    background-image: url("background.jpg");
+    background-image: url("images/background.jpg");
     color: black;
     font-weight: bold;
     height: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
 }
 
 header{
@@ -55,6 +54,8 @@ section{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     grid-template-columns: 1fr 1fr;
+    border-top: rgb(248, 229, 203);
+    border-top-style: solid;
 }
 
 button{
@@ -62,8 +63,8 @@ button{
     border: transparent;
     border-radius: 40px;
     width: fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: transparent;
 }
 
@@ -81,15 +82,14 @@ button:hover{
     display: flex;
     gap: 20px;
     justify-content: center;
-    max-width: 100%;
-    height: auto;
 }
 
 #testform{
     border: 2px solid black;
     display: flex;
     border-radius: 10px;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
     padding: 10px;
     margin-top: 10px;
@@ -99,6 +99,11 @@ button:hover{
 legend{
     font-weight: bold;
     font-size: 20px;
+}
+
+figure{
+    max-width: 100%;
+    height: auto;
 }
 
 .scrollappear{
