@@ -38,7 +38,7 @@ body{
 
 @media screen and (min-width: 768px) and (max-width: 1280px){
     #topSection{
-        height: 300px;
+        height: 275px;
         display: block;
     }
     .computerSize{
@@ -56,7 +56,7 @@ body{
 
 @media screen and (min-width: 1281px) and (max-width: 1868px){
     #topSection{
-        height: 250px;
+        height: 240px;
     }
     .computerSize{
         display: block;
@@ -203,6 +203,7 @@ hr{
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 
