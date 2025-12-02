@@ -12,17 +12,24 @@ body{
     font-weight: bold;
     height: fit-content;
     border: transparent;
+    display: block;
 }
 
 @media screen and (max-width: 399px){
     #topSection {
         height: 460px;
     }
+    .computerSize{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px){
     #topSection {
         height: 375px;
+    }
+    .computerSize{
+        display: none;
     }
 }
 
@@ -179,6 +186,7 @@ hr{
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 
