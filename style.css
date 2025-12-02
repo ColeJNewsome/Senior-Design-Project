@@ -15,6 +15,15 @@ body{
     display: block;
 }
 
+@media screen and (max-width: 399px){
+    #topSection {
+        height: 460px;
+    }
+    .computerSize{
+        display: none;
+    }
+}
+
 /*@media screen and (max-width: 399px){
     #topSection {
         height: 460px;
@@ -186,6 +195,7 @@ hr{
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 
