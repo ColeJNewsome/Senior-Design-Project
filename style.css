@@ -17,7 +17,7 @@ body{
 
 @media screen and (max-width: 399px){
     #topSection {
-        height: 550px;
+        height: 450px;
     }
     .computerSize{
         display: none;
@@ -26,7 +26,7 @@ body{
 
 @media screen and (min-width: 400px) and (max-width: 767px){
     #topSection{
-        height: 490px;
+        height: 450px;
     }
     .computerSize{
         display: none;
@@ -61,10 +61,10 @@ body{
         height: 250px;
     }
     .computerSize{
-        display: none;
+        display: block;
     }
     .otherSize{
-        display: block;
+        display: none;
     }
     .introImage {
         float: right;
@@ -191,3 +191,4 @@ hr{
     opacity: 1;
     transform: translateY(0);
 }
+
