@@ -17,7 +17,7 @@ body{
 
 @media screen and (max-width: 399px){
     #topSection {
-        height: 450px;
+        height: 475px;
     }
     .computerSize{
         display: none;
@@ -39,20 +39,18 @@ body{
 @media screen and (min-width: 768px) and (max-width: 1280px){
     #topSection{
         height: 350px;
+        display: block;
     }
     .computerSize{
         display: none;
     }
-    .otherSize{
+    /*.otherSize{
         display: block;
-    }
+    }*/
     .introImage {
         float: right;
         width: 20%;
         margin-left: 30px;
-    }
-    #Introduction{
-        height: 350px;
     }
 }
 
@@ -70,9 +68,6 @@ body{
         float: right;
         width: 20%;
         margin-left: 30px;
-    }
-    #Introduction{
-        height: 350px;
     }
 }
 
@@ -191,4 +186,5 @@ hr{
     opacity: 1;
     transform: translateY(0);
 }
+
 
