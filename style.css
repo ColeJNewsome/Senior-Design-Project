@@ -22,9 +22,9 @@ body{
     .computerSize{
         display: none;
     }
-    .otherSize{
+    /*.otherSize{
         display: block;
-    }
+    }*/
 }
 
 @media screen and (min-width: 400px) and (max-width: 767px){
@@ -262,6 +262,7 @@ hr{
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 
